@@ -38,6 +38,8 @@ EdiTickets send us the following high level requirements:
 
 Again the idea is to create the API spec only + basic architecture of the application. If time permits an implementation can be done of a part of the API but it must contain all non functional requirements, authentication, auditing and metrics.
 
+The REST API should follow good practices of the REST world a good reference is the Stormpath API, also specs like [jsonapi.org](http://jsonapi.org/) are good references.
+
 The architectural document should be simple, and should include recommendations for the main datastore, metrics analytics, event pipeline and datastore.
 
 EdiTickets wants to be really successful and crash its competitors so any suggestions on the data model and requirements would be greatly appreciated.
