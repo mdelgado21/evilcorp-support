@@ -36,7 +36,7 @@ EdiTickets send us the following high level requirements:
 9. The application needs to audit almost all the events that occur, like ticket purchases, event cancellations, etc. All the events should be trigger asynchronously and persisted, and also be able to analyze them in real time. This doesn't get reflected in the REST API but needs to be taken into account as part of the architecture.
 10. As part of the architecture we need to monitor different metrics of the application, same as the auditing this is not a functional requirement but, it needs to be taken into account in the general architecture of the app.
 
-Again the idea is to create the API spec only + basic architecture of the application. If time permits an implementation can be done of a part of the API but it must contain all non functional requirements, authentication, auditing and metrics.
+Again the idea is to create the API spec only + basic architecture of the application.
 
 The REST API should follow good practices of the REST world a good reference is the Stormpath API, also specs like [jsonapi.org](http://jsonapi.org/) are good references.
 
