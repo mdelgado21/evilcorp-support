@@ -8,7 +8,7 @@ The following exercise its a tool to assess that you as developer is in the tech
 General instructions
 --------------------
 
-1. There is no limit of time to present the test, the main goal is for people to adquire, grow and get prepared in all the topics mentioned in the test, so the person feel confident to defend the proposal and to take Senior responsibilities.
+1. There is no limit of time to finish the test, the main goal is for people to adquire, grow and get prepared in all the topics mentioned below, so the person feel confident to defend the proposal and to take Senior responsibilities.
 2. You need to clone this repo, under the ```mid-to-senior``` folder you need to create a new folder with your name in the following format ```firstName.lastName``` same way as your Edify's email address. All your work must go into that folder.
 3. You need to create a branch with the same name format as the folder in step ```2```
 3. All the work needs to be push to the your branch using pull requests out of feature branches that describe a concrete functionality that you develop.
@@ -16,8 +16,8 @@ General instructions
 5. Once the person feels ready/prepared to present the work done, a session would be scheduled to defend the proposal in front of a small panel of 3 other developers.
 
 ### Deliverables
-* Written proposal including the aspects mentioned at the test description.
-* Test presentation.
+* Written proposal including the aspects mentioned in the description section below.
+* A presentation of the proposal to a panel of 3 reviewers.
 * It is not necessary to develop a POC for this test, but it is expected for Senior Developer to be able to start an application from scratch following good practices and standards.
 
 
