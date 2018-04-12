@@ -13,12 +13,12 @@ General instructions
 3. You need to create a branch with the same name format as the folder in step ```2```
 3. All the work needs to be push to the your branch using pull requests out of feature branches that describe a concrete functionality that you develop.
 4. ```Mentors and Career Path folks``` would be supporting the person during this process.
-5. Once the person feels ready/prepared to present the work done, a session would be schedule to defend the proposal in front of a small panel of 3 other developers.
+5. Once the person feels ready/prepared to present the work done, a session would be scheduled to defend the proposal in front of a small panel of 3 other developers.
 
 ### Deliverables
 * Written proposal including the aspects mentioned at the test description.
 * Test presentation.
-* It is not necessary to develop a POC for this test.
+* It is not necessary to develop a POC for this test, but it is expected for Senior Developer to be able to start an application from scratch following good practices and standards.
 
 
 ### Description
