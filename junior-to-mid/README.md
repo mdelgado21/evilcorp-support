@@ -11,7 +11,7 @@ General instructions
 1. You have ```4 weeks``` to resolve this exercise, during those you can spend up to ```2 hours``` a week of Edify's time to resolve it, the rest has to be in your own time.
 2. You need to clone this repo, under the ```junior-to-mid``` folder you need to create a new folder with your name in the following format ```firstName.lastName``` same way as your Edify's email address. All your work must go into that folder.
 3. You need to create a branch with the same name format as the folder in step ```2```
-3. All the work needs to be push to the your branch using pull requests out of feature branches that describe a concrete functionality that you develop.
+3. All the work needs to be push to the your branch only never to master.
 4. ```Julio Arias``` would be the your mentor during the ```4 weeks``` time and would act as your ```team lead``` if this was a real project.
 5. Once you finish the exercise you need to present your work to a small panel of 3 other developers.
 
