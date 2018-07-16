@@ -1,0 +1,17 @@
+{
+  "chat-container.choose": "Choose a Chat",
+  "chat-container.decline-message":
+    "I'm sorry we don't care about your questions at this time",
+  "chat-container.wait-message": "Please wait for a support representative",
+  "chat-container.back": "Back to login",
+  "general.evil-corp": "Evil Corp",
+  "home.give-support": "Give support",
+  "home.get-support": "Get support",
+  "login.welcome": "Welcome",
+  "login.enter-username": "Enter a user name",
+  "login.user-name-placeholder": "User name",
+  "login.empty-user-error": "A user name must be provided",
+  "login.support-error":
+    "Who are you?  our only support rep is already working, go away.",
+  "message-input.send": "Send"
+}

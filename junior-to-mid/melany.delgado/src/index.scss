@@ -1,0 +1,50 @@
+@import 'flexbox.scss';
+@import 'utils.scss';
+@import 'components/header/Header.scss';
+@import 'components/loginForm/LoginForm.scss';
+@import 'components/home/Home.scss';
+
+@import 'components/chats/chatContainer/ChatContainer.scss';
+@import 'components/chats/chatHeading/ChatHeading.scss';
+
+@import 'components/messages/messages/Messages.scss';
+@import 'components/messages/messageInput/MessageInput.scss';
+
+@import 'components/sidebar/sideBar/SideBar.scss';
+@import 'components/sidebar/sideBarOption/SideBarOption.scss';
+
+body {
+  font-family: Poppins;
+}
+
+html,
+body,
+#root,
+.routes {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.app-container {
+  color: $gray-4;
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  width: 100%;
+
+  main {
+    position: relative;
+    overflow-y: auto;
+    @include flexbox();
+    @include flex-grow(2);
+    height: 100%;
+  }
+}
+.chat-container,
+.container {
+  color: $gray-4;
+  @include flexbox();
+  @include align-items(flex-start);
+  height: 100%;
+  width: 100%;
+}

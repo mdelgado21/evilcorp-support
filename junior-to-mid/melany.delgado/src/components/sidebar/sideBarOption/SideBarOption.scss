@@ -1,0 +1,40 @@
+@import '../../../global.scss';
+.user {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  line-height: 50px;
+  cursor: pointer;
+
+  &.active {
+    background: $gray-4;
+  }
+
+  &:hover {
+    background: $gray-3;
+  }
+
+  .user-info {
+    margin-left: 15px;
+    flex-grow: 1;
+    .last-message {
+      font-size: 12px;
+      opacity: 0.56;
+    }
+  }
+  .decline-button {
+    height: 49px;
+    width: 100px;
+    background-color: $decline;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid $gray-5;
+  }
+  .decline-button:hover {
+    background-color: $decline-hover;
+  }
+}
+.user:hover:not(.active) {
+  cursor: pointer;
+}

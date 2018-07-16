@@ -1,0 +1,31 @@
+@import '../../../flexbox.scss';
+@import '../../../global.scss';
+.chat-container {
+  .chat-room-container {
+    height: 100%;
+    width: 100%;
+  }
+  .chat-room {
+    @include flexbox();
+    @include flex-direction(column);
+    @include justify-content(space-between);
+    height: 100%;
+    width: 100%;
+  }
+  .chat-room.choose {
+    @include align-items(center);
+    @include justify-content(center);
+    font-size: 2em;
+  }
+  .back-button {
+    width: auto;
+    background-color: $gray-5;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    font-size: 20px;
+    cursor: pointer;
+    color: $white;
+    padding: 10px;
+  }
+}

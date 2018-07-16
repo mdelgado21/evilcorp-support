@@ -1,0 +1,60 @@
+@import '../../../global.scss';
+@import '../../../flexbox.scss';
+.message-input {
+  background: $white;
+  color: $gray-5;
+  box-sizing: border-box;
+  height: 10vh;
+  max-height: 65px;
+
+  .message-form {
+    height: 100%;
+    width: 100%;
+    @include flexbox();
+    @include justify-content(space-between);
+    .form-control {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      resize: none;
+      padding-left: 15px;
+      box-sizing: border-box;
+      width: 80%;
+      height: 100%;
+      border: none;
+      border-top: 2px solid $gray-4;
+      border-left: 2px solid $gray-4;
+      border-bottom: 2px solid $gray-4;
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        background-color: $gray-3;
+      }
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+      &:focus {
+        outline: none;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: $gray-4;
+      }
+    }
+    .send {
+      width: 20%;
+      box-sizing: border-box;
+      font-size: 1.25em;
+      text-align: center;
+      border: none;
+      height: 100%;
+      color: $gray-2;
+      background: $gray-6;
+      transition: all 0.35s ease-out;
+      cursor: pointer;
+
+      &:disabled {
+        opacity: 0.2;
+        background: $gray-5;
+        cursor: default;
+      }
+    }
+  }
+}

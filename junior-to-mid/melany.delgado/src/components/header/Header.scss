@@ -1,0 +1,14 @@
+@import '../../global.scss';
+@import '../../flexbox.scss';
+.page-header {
+  height: auto;
+  @include flex(0 0 auto);
+  background-color: $gray-6;
+
+  .logo {
+    width: 105px;
+    height: 90px;
+    background: url('assets/evil-corp-logo.png') no-repeat;
+    background-size: 100% 100%;
+  }
+}

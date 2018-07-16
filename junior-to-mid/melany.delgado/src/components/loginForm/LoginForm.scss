@@ -1,0 +1,98 @@
+@import '../../global.scss';
+@import '../../flexbox.scss';
+@import '../../utils.scss';
+.login-container {
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+  @include align-items(center);
+  background: $light-gray;
+
+  .login {
+    width: 375px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px;
+    @include box-shadow(5px, 10px, 0px, rgba(0, 0, 0, 0.1));
+
+    .title {
+      display: block;
+      font-weight: bold;
+      font-size: 30px;
+      color: $gray-6;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .fsociety-logo {
+      @include align-self(center);
+      width: 150px;
+      height: 150px;
+      background: url('assets/fsociety.png') no-repeat;
+      background-size: 100% 100%;
+      margin-bottom: 10px;
+    }
+
+    label {
+      text-align: center;
+    }
+
+    .login-form {
+      @include flexbox();
+      @include justify-content(center);
+      @include flex-direction(column);
+      input {
+        max-width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 20px;
+        line-height: 20px;
+        font-size: 20px;
+        border-bottom: solid 2px $gray-2;
+        transition: all 0.23s ease-in;
+        font-family: Poppins;
+        text-align: center;
+
+        &:focus {
+          border-bottom: solid 2px $gray-5;
+          outline: none;
+        }
+      }
+      .error {
+        text-align: center;
+        margin: 20px 0;
+        padding: 5px 10px;
+        color: $error;
+        min-height: 50px;
+      }
+      .login-btn {
+        font-size: 15px;
+        font-weight: bold;
+        color: $white;
+        line-height: 1.2;
+        text-transform: uppercase;
+        @include flexbox();
+        @include justify-content(center);
+        @include align-items(center);
+        padding: 0 20px;
+        width: 100%;
+        height: 50px;
+        outline: none;
+        border: none;
+        @include gradient($gray-4, $gray-6);
+        border-radius: 25px;
+        margin-top: 45px;
+        cursor: pointer;
+
+        &:hover {
+          @include gradient($gray-3, $gray-5);
+        }
+      }
+    }
+  }
+}
